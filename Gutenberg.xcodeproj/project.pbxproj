@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16A230F4F51463E96C7379CF /* Pods_Gutenberg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8668E4B68BF78097190BEA4B /* Pods_Gutenberg.framework */; };
+		5E1D3DEF24F658F700B87E85 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D3DEE24F658F700B87E85 /* UIImageView+.swift */; };
+		5EA7BF1224F572CA00CF03F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7BF1124F572CA00CF03F4 /* AppDelegate.swift */; };
+		5EA7BF1424F572CA00CF03F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7BF1324F572CA00CF03F4 /* SceneDelegate.swift */; };
+		5EA7BF1624F572CA00CF03F4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7BF1524F572CA00CF03F4 /* HomeViewController.swift */; };
+		5EA7BF1924F572CA00CF03F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA7BF1724F572CA00CF03F4 /* Main.storyboard */; };
+		5EA7BF1B24F572D200CF03F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA7BF1A24F572D200CF03F4 /* Assets.xcassets */; };
+		5EA7BF1E24F572D200CF03F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA7BF1C24F572D200CF03F4 /* LaunchScreen.storyboard */; };
+		5EA7BF3B24F5776900CF03F4 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EA7BF2824F5776800CF03F4 /* Montserrat-Regular.ttf */; };
+		5EA7BF4B24F5776900CF03F4 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EA7BF3824F5776900CF03F4 /* Montserrat-SemiBold.ttf */; };
+		5EA7BF4F24F578C900CF03F4 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7BF4E24F578C900CF03F4 /* Font.swift */; };
+		5EA7BF5124F5906900CF03F4 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7BF5024F5906900CF03F4 /* NetworkHelper.swift */; };
+		5EA7BF5324F5907500CF03F4 /* AppUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7BF5224F5907500CF03F4 /* AppUtil.swift */; };
+		5EA7BF5524F5909400CF03F4 /* ActivityIndicatorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7BF5424F5909400CF03F4 /* ActivityIndicatorHelper.swift */; };
+		5EA7BF5724F590AA00CF03F4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7BF5624F590AA00CF03F4 /* Constants.swift */; };
+		5EA7BF5C24F590C100CF03F4 /* STAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7BF5924F590C100CF03F4 /* STAnimationProtocol.swift */; };
+		5EA7BF5D24F590C100CF03F4 /* STSpotLoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7BF5A24F590C100CF03F4 /* STSpotLoadView.swift */; };
+		5EA7BF5E24F590C100CF03F4 /* STConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7BF5B24F590C100CF03F4 /* STConfiguration.swift */; };
+		5EA7BF6324F59A1D00CF03F4 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7BF6224F59A1D00CF03F4 /* CategoryModel.swift */; };
+		5EA7BF6724F5A38100CF03F4 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7BF6624F5A38100CF03F4 /* CategoryCell.swift */; };
+		5EA7BF6A24F5B86F00CF03F4 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7BF6924F5B86F00CF03F4 /* BooksViewController.swift */; };
+		5EA7BF6C24F5BA1800CF03F4 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7BF6B24F5BA1800CF03F4 /* BookCell.swift */; };
+		5EA7BF6E24F5BB4A00CF03F4 /* BooksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7BF6D24F5BB4A00CF03F4 /* BooksModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000567B5FD29D681FBA3A569 /* Pods-Gutenberg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gutenberg.debug.xcconfig"; path = "Target Support Files/Pods-Gutenberg/Pods-Gutenberg.debug.xcconfig"; sourceTree = "<group>"; };
+		5E1D3DEE24F658F700B87E85 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		5EA7BF0E24F572CA00CF03F4 /* Gutenberg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gutenberg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA7BF1124F572CA00CF03F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EA7BF1324F572CA00CF03F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5EA7BF1524F572CA00CF03F4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5EA7BF1824F572CA00CF03F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EA7BF1A24F572D200CF03F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EA7BF1D24F572D200CF03F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EA7BF1F24F572D200CF03F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EA7BF2824F5776800CF03F4 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		5EA7BF3824F5776900CF03F4 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		5EA7BF4E24F578C900CF03F4 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		5EA7BF5024F5906900CF03F4 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		5EA7BF5224F5907500CF03F4 /* AppUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtil.swift; sourceTree = "<group>"; };
+		5EA7BF5424F5909400CF03F4 /* ActivityIndicatorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorHelper.swift; sourceTree = "<group>"; };
+		5EA7BF5624F590AA00CF03F4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5EA7BF5924F590C100CF03F4 /* STAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STAnimationProtocol.swift; sourceTree = "<group>"; };
+		5EA7BF5A24F590C100CF03F4 /* STSpotLoadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STSpotLoadView.swift; sourceTree = "<group>"; };
+		5EA7BF5B24F590C100CF03F4 /* STConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STConfiguration.swift; sourceTree = "<group>"; };
+		5EA7BF6224F59A1D00CF03F4 /* CategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		5EA7BF6624F5A38100CF03F4 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		5EA7BF6924F5B86F00CF03F4 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		5EA7BF6B24F5BA1800CF03F4 /* BookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		5EA7BF6D24F5BB4A00CF03F4 /* BooksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksModel.swift; sourceTree = "<group>"; };
+		75496A3288207AE0C7B4112B /* Pods-Gutenberg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gutenberg.release.xcconfig"; path = "Target Support Files/Pods-Gutenberg/Pods-Gutenberg.release.xcconfig"; sourceTree = "<group>"; };
+		8668E4B68BF78097190BEA4B /* Pods_Gutenberg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gutenberg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EA7BF0B24F572CA00CF03F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A230F4F51463E96C7379CF /* Pods_Gutenberg.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		246F51E5089C291B879765B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				000567B5FD29D681FBA3A569 /* Pods-Gutenberg.debug.xcconfig */,
+				75496A3288207AE0C7B4112B /* Pods-Gutenberg.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5EA7BF0524F572CA00CF03F4 = {
+			isa = PBXGroup;
+			children = (
+				5EA7BF1024F572CA00CF03F4 /* Gutenberg */,
+				5EA7BF0F24F572CA00CF03F4 /* Products */,
+				246F51E5089C291B879765B6 /* Pods */,
+				E8CF500FD24F1A1B075D136D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EA7BF0F24F572CA00CF03F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EA7BF0E24F572CA00CF03F4 /* Gutenberg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EA7BF1024F572CA00CF03F4 /* Gutenberg */ = {
+			isa = PBXGroup;
+			children = (
+				5EA7BF6424F59D6200CF03F4 /* ViewController */,
+				5EA7BF6124F59A1500CF03F4 /* Model */,
+				5EA7BF4D24F578A400CF03F4 /* Utilities */,
+				5EA7BF2524F5771B00CF03F4 /* Resources */,
+				5EA7BF1124F572CA00CF03F4 /* AppDelegate.swift */,
+				5EA7BF1324F572CA00CF03F4 /* SceneDelegate.swift */,
+				5EA7BF1724F572CA00CF03F4 /* Main.storyboard */,
+				5EA7BF1A24F572D200CF03F4 /* Assets.xcassets */,
+				5EA7BF1C24F572D200CF03F4 /* LaunchScreen.storyboard */,
+				5EA7BF1F24F572D200CF03F4 /* Info.plist */,
+			);
+			path = Gutenberg;
+			sourceTree = "<group>";
+		};
+		5EA7BF2524F5771B00CF03F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EA7BF2624F5772A00CF03F4 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5EA7BF2624F5772A00CF03F4 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				5EA7BF2824F5776800CF03F4 /* Montserrat-Regular.ttf */,
+				5EA7BF3824F5776900CF03F4 /* Montserrat-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		5EA7BF4D24F578A400CF03F4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5EA7BF5824F590C100CF03F4 /* ActivityIndicator */,
+				5EA7BF5024F5906900CF03F4 /* NetworkHelper.swift */,
+				5EA7BF5224F5907500CF03F4 /* AppUtil.swift */,
+				5EA7BF5424F5909400CF03F4 /* ActivityIndicatorHelper.swift */,
+				5EA7BF4E24F578C900CF03F4 /* Font.swift */,
+				5EA7BF5624F590AA00CF03F4 /* Constants.swift */,
+				5E1D3DEE24F658F700B87E85 /* UIImageView+.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5EA7BF5824F590C100CF03F4 /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				5EA7BF5924F590C100CF03F4 /* STAnimationProtocol.swift */,
+				5EA7BF5A24F590C100CF03F4 /* STSpotLoadView.swift */,
+				5EA7BF5B24F590C100CF03F4 /* STConfiguration.swift */,
+			);
+			path = ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		5EA7BF6124F59A1500CF03F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5EA7BF6224F59A1D00CF03F4 /* CategoryModel.swift */,
+				5EA7BF6D24F5BB4A00CF03F4 /* BooksModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EA7BF6424F59D6200CF03F4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5EA7BF6824F5B85600CF03F4 /* BooksViewController */,
+				5EA7BF6524F59D6E00CF03F4 /* HomeViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5EA7BF6524F59D6E00CF03F4 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5EA7BF1524F572CA00CF03F4 /* HomeViewController.swift */,
+				5EA7BF6624F5A38100CF03F4 /* CategoryCell.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		5EA7BF6824F5B85600CF03F4 /* BooksViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5EA7BF6924F5B86F00CF03F4 /* BooksViewController.swift */,
+				5EA7BF6B24F5BA1800CF03F4 /* BookCell.swift */,
+			);
+			path = BooksViewController;
+			sourceTree = "<group>";
+		};
+		E8CF500FD24F1A1B075D136D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8668E4B68BF78097190BEA4B /* Pods_Gutenberg.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EA7BF0D24F572CA00CF03F4 /* Gutenberg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA7BF2224F572D200CF03F4 /* Build configuration list for PBXNativeTarget "Gutenberg" */;
+			buildPhases = (
+				C4582D3E5B4D8C31786EF1F5 /* [CP] Check Pods Manifest.lock */,
+				5EA7BF0A24F572CA00CF03F4 /* Sources */,
+				5EA7BF0B24F572CA00CF03F4 /* Frameworks */,
+				5EA7BF0C24F572CA00CF03F4 /* Resources */,
+				5EFC7E28A4A1249492AE9A4E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gutenberg;
+			productName = Gutenberg;
+			productReference = 5EA7BF0E24F572CA00CF03F4 /* Gutenberg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EA7BF0624F572CA00CF03F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "MacMini 20";
+				TargetAttributes = {
+					5EA7BF0D24F572CA00CF03F4 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5EA7BF0924F572CA00CF03F4 /* Build configuration list for PBXProject "Gutenberg" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EA7BF0524F572CA00CF03F4;
+			productRefGroup = 5EA7BF0F24F572CA00CF03F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EA7BF0D24F572CA00CF03F4 /* Gutenberg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EA7BF0C24F572CA00CF03F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA7BF4B24F5776900CF03F4 /* Montserrat-SemiBold.ttf in Resources */,
+				5EA7BF1E24F572D200CF03F4 /* LaunchScreen.storyboard in Resources */,
+				5EA7BF1B24F572D200CF03F4 /* Assets.xcassets in Resources */,
+				5EA7BF3B24F5776900CF03F4 /* Montserrat-Regular.ttf in Resources */,
+				5EA7BF1924F572CA00CF03F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EFC7E28A4A1249492AE9A4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gutenberg/Pods-Gutenberg-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gutenberg/Pods-Gutenberg-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gutenberg/Pods-Gutenberg-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4582D3E5B4D8C31786EF1F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gutenberg-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EA7BF0A24F572CA00CF03F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA7BF6724F5A38100CF03F4 /* CategoryCell.swift in Sources */,
+				5EA7BF5C24F590C100CF03F4 /* STAnimationProtocol.swift in Sources */,
+				5EA7BF6324F59A1D00CF03F4 /* CategoryModel.swift in Sources */,
+				5EA7BF1624F572CA00CF03F4 /* HomeViewController.swift in Sources */,
+				5EA7BF1224F572CA00CF03F4 /* AppDelegate.swift in Sources */,
+				5EA7BF5E24F590C100CF03F4 /* STConfiguration.swift in Sources */,
+				5E1D3DEF24F658F700B87E85 /* UIImageView+.swift in Sources */,
+				5EA7BF5D24F590C100CF03F4 /* STSpotLoadView.swift in Sources */,
+				5EA7BF5124F5906900CF03F4 /* NetworkHelper.swift in Sources */,
+				5EA7BF5524F5909400CF03F4 /* ActivityIndicatorHelper.swift in Sources */,
+				5EA7BF5324F5907500CF03F4 /* AppUtil.swift in Sources */,
+				5EA7BF6E24F5BB4A00CF03F4 /* BooksModel.swift in Sources */,
+				5EA7BF4F24F578C900CF03F4 /* Font.swift in Sources */,
+				5EA7BF6C24F5BA1800CF03F4 /* BookCell.swift in Sources */,
+				5EA7BF1424F572CA00CF03F4 /* SceneDelegate.swift in Sources */,
+				5EA7BF5724F590AA00CF03F4 /* Constants.swift in Sources */,
+				5EA7BF6A24F5B86F00CF03F4 /* BooksViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EA7BF1724F572CA00CF03F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA7BF1824F572CA00CF03F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EA7BF1C24F572D200CF03F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA7BF1D24F572D200CF03F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EA7BF2024F572D200CF03F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EA7BF2124F572D200CF03F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EA7BF2324F572D200CF03F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000567B5FD29D681FBA3A569 /* Pods-Gutenberg.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gutenberg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Gutenberg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EA7BF2424F572D200CF03F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75496A3288207AE0C7B4112B /* Pods-Gutenberg.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gutenberg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Gutenberg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EA7BF0924F572CA00CF03F4 /* Build configuration list for PBXProject "Gutenberg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA7BF2024F572D200CF03F4 /* Debug */,
+				5EA7BF2124F572D200CF03F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA7BF2224F572D200CF03F4 /* Build configuration list for PBXNativeTarget "Gutenberg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA7BF2324F572D200CF03F4 /* Debug */,
+				5EA7BF2424F572D200CF03F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EA7BF0624F572CA00CF03F4 /* Project object */;
+}
